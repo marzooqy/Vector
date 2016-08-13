@@ -45,7 +45,7 @@ function Vector(x, y) {
 	this.normalize = function() {
 		var length = this.length();
 
-		if (length == 0) {
+		if(length == 0) {
 			this.x = 1;
 			this.y = 0;
 		} else {
