@@ -18,7 +18,7 @@ Vector.prototype.copy = function(vector) {
 };
 
 Vector.prototype.distance = function(vector) {
-	return Math.sqrt(Math.pow(this.x - vec.x, 2) + Math.pow(this.y - vector.y, 2));
+	return Math.sqrt(Math.pow(this.x - vector.x, 2) + Math.pow(this.y - vector.y, 2));
 };
 
 Vector.prototype.equals = function(vector) {
